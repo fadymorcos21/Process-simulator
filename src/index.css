@@ -1,0 +1,21 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Bahnschrift, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #163041;
+  background:
+    radial-gradient(circle at top right, rgba(103, 139, 157, 0.28), transparent 45%),
+    radial-gradient(circle at bottom left, rgba(213, 122, 59, 0.15), transparent 40%),
+    linear-gradient(180deg, #eef3f7 0%, #d9e2e9 100%);
+}
+
+a {
+  color: inherit;
+}
